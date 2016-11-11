@@ -2,8 +2,8 @@ const React = require('react');
 
 const DumberComponent = props =>{
   return(
-    <div>
-      
+    <div onClick={props.handleClick}>
+      I am just happy
     </div>
   )
 }
